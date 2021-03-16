@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="app/vista/libs/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="app/vista/libs/bootstrap/css/customstyle.css">
   <link rel="stylesheet" href="app/vista/libs/icons/css/all.css">
-  <link rel="stylesheet" href="http://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="app/vista/libs/datatables.min.css">
 
   <title>Inicio</title>
 </head>
@@ -105,7 +105,7 @@
 
 <script src="app/vista/libs/jquery-3.6.0.min.js"></script>
 <script src="app/vista/libs/bootstrap/js/bootstrap.min.js"></script>
-<script src="http://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script src="app/vista/libs/datatables.min.js"></script>
 
 <script>
   $(document).ready(function() {
@@ -277,7 +277,7 @@
 
   function salir() {
     if (window.confirm("¿Desea salir del sistema?")) {
-      window.location.replace("/serviciosocial/index.php?action=salir");
+      window.location.replace("index.php?action=salir");
     }
   }
 </script>

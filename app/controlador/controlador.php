@@ -4,7 +4,7 @@ require_once __dir__ . "/../modelo/getDatos.php";
 
 class controlador
 {
-    public static $rutaAPP = "https://servicio-social-unicaes.herokuapp.com/";
+    public static $rutaAPP = "/serviciosocial/";
 
     public function iniciarSesion()
     {
