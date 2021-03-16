@@ -3,7 +3,7 @@ class BaseDeDatos {
     protected $conexion;
     protected $isConnected = false;
     public function conectar() {
-        $this->conexion = new mysqli("localhost", "root", "catolica", "serviciosocial");
+        $this->conexion = new mysqli("g84t6zfpijzwx08q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "yie6887hfpgb0yi8", "xaxzsqtc6wws0mcs", "ly8yy8fn4g3sh5w5");
         if ($this->conexion->connect_errno) {
             echo "Error de conexion " . $this->conexion->connect_error;
             $this->isConnected = false;
